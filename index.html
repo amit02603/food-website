@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mymeal.com</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
 </head>
 
@@ -19,7 +20,7 @@
         <ul>
             <li class="item"><a href="#home">Home</a>
             </li>
-            <li class="item"><a href="#services">Our Sevices</a>
+            <li class="item"><a href="#services-container">Our Sevices</a>
             </li>
             <li class="item"><a href="#client-section">Our clients</a>
             </li>
@@ -30,7 +31,10 @@
 
 
         </ul>
+<div>
+<input type="search" name="search" id="search" placeholder="search">
 
+</div>
     </nav>
 
     <section id="home">
@@ -42,7 +46,7 @@
 
     </section>
 
-    <section class="services-container">
+    <section id="services-container">
         <h1 class="h-primary centre">Our services</h1>
         <div id="services">
             <div class="box">
@@ -112,7 +116,7 @@
                     <textarea name="message" id="message" placeholder="Say Something..." cols="20" rows="5"></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="submit" id="form-group1"placeholder="Submt">
+                    <input type="submit" name="submit" id="form-group1"placeholder="Submit">
                 </div>
             </form>
         </div>
